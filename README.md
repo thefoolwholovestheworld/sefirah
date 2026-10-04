@@ -10,7 +10,7 @@ Sefirah is a [KOReader](https://github.com/koreader/koreader) plugin that brings
 ## Features
 
 - **Browse & search**: explore popular novels or search by title from your device, with a language filter
-- https://github.com/thefoolwholovestheworld/sefirah/blob/57db33fd730467b631f483d91d0e2f22b4e682fd/images/IMG-20261004-WA0003.jpg
+images/IMG-20261004-WA0003.jpg
 - **Track novels**: save novels to your library and see new chapters at a glance
 - **Read on the device**: built-in reader with chapter navigation
 - **Chapter selection**: pick all chapters, deselect some, or choose a custom range
