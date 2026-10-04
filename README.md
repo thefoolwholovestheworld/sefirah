@@ -1,52 +1,59 @@
 # Sefirah
 
-> **Sefirah is a fork of [Mythos](https://github.com/unitreign/Mythos) by [unitreign](https://github.com/unitreign), licensed under GPL-3.0.**
-> *Sefirah est un fork de [Mythos](https://github.com/unitreign/Mythos) par unitreign, sous licence GPL-3.0.*
+A web novel library for [KOReader](https://koreader.rocks/). Browse, follow and read your favorite stories, and export them as EPUB to read offline.
 
-**Your web novel library on your e-reader. Search, track, read and export to EPUB, right inside KOReader.**
+> **Sefirah is a fork of [Mythos](https://github.com/unitreign/Mythos) by unitreign**, licensed under GPL-3.0. Modified by thefoolwholovestheworld.
 
-Sefirah is a [KOReader](https://github.com/koreader/koreader) plugin that brings web novel browsing directly to your e-ink device. Find novels, track the ones you're reading, pick your chapters, and export them as EPUB files, with no computer needed.
+## Screenshots
+
+*(Interface shown in French. It follows KOReader's language.)*
+
+<table>
+  <tr>
+    <td align="center"><img src="images/library.jpg" width="260"><br><sub>Library</sub></td>
+    <td align="center"><img src="images/browse-sources.jpg" width="260"><br><sub>Browse: sources</sub></td>
+    <td align="center"><img src="images/browse-novelfire.jpg" width="260"><br><sub>Browse: NovelFire</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/details.jpg" width="260"><br><sub>Novel details</sub></td>
+    <td align="center"><img src="images/chapters.jpg" width="260"><br><sub>Chapters</sub></td>
+    <td align="center"><img src="images/reviews.jpg" width="260"><br><sub>Reader reviews</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/reader.jpg" width="260"><br><sub>Reader</sub></td>
+    <td align="center"><img src="images/reading-settings.jpg" width="260"><br><sub>Reading settings</sub></td>
+    <td align="center"><img src="images/sources.jpg" width="260"><br><sub>Sources</sub></td>
+  </tr>
+</table>
 
 ## Features
 
-- **Browse & search**: explore popular novels or search by title from your device, with a language filter
-- **Track novels**: save novels to your library and see new chapters at a glance
-- **Read on the device**: built-in reader with chapter navigation
-- **Chapter selection**: pick all chapters, deselect some, or choose a custom range
-- **Flexible export**: a single EPUB, one EPUB per chapter, or volumes of N chapters, with the cover embedded
-- **Built-in sources**: NovelFrance (FR), NovelFire, Royal Road, SkyNovels (ES), 69shu (ZH)
-- **Updates from GitHub**: the plugin checks this repository's releases for new versions
+- **Library** of followed novels, with search and sorting (title, new chapters, recently added, recently read).
+- **Browse** several sources, with a language filter and a global search across all sources.
+- **Novel details**: cover, description, resume reading, favorites.
+- **Chapters**: search, jump to a chapter, sort, download a range or everything for offline reading.
+- **Reviews and comments**: reader reviews, plus chapter and paragraph comments.
+- **Reader** with font, size, line spacing and text width settings, and KOReader's native dictionary.
+- **EPUB export**: everything in one file, one EPUB per chapter, grouped volumes, or a chapter range.
+- **Fast loading**: covers are downloaded in parallel and cached on disk.
+- **Multilingual interface**: follows KOReader's language (French and English).
 
-## Requirements
+## Sources
 
-- [KOReader](https://github.com/koreader/koreader), any reasonably recent build
-- A Kobo, Kindle, or any other device KOReader supports
-- Wi-Fi to fetch novels (exports work offline afterwards)
+| Source | Language |
+|---|---|
+| NovelFrance | French |
+| NovelFire | English |
+| Royal Road | English |
+| SkyNovels | Spanish |
+| 69书吧 (69shu) | Chinese |
 
 ## Installation
 
-1. Go to the [Releases](../../releases/latest) page and download `sefirah.koplugin.zip`.
-2. Extract it: you get a folder named `sefirah.koplugin`.
-3. Copy that folder into KOReader's `plugins` directory:
-   - **Kobo:** `/mnt/onboard/.adds/koreader/plugins/`
-   - **Kindle:** `extensions/koreader/plugins/`
-   - Other devices: wherever your KOReader `plugins/` folder is
-4. Restart KOReader.
-5. Open the menu, go to **Tools**, and tap **Sefirah**.
+1. Download `sefirah.zip`.
+2. Extract it so that the `sefirah.koplugin` folder ends up in KOReader's `plugins` directory.
+3. Restart KOReader, then open **Sefirah** from the Tools menu.
 
-## Getting started
+## Credits and license
 
-1. Open the **Browse** tab and choose a source.
-2. Tap a novel to open its page, then **Track** it to add it to your **Library**.
-3. In the **Chapters** tab, select chapters and tap **Export** to build your EPUB files.
-4. Open the exported EPUBs in KOReader like any other book.
-
-## Disclaimer
-
-Sefirah is an open-source tool for finding and exporting web novels as EPUB files on your e-reader. It only accesses content that sites serve freely to any visitor: no paywalls are bypassed and no premium chapters are unlocked. Please respect the terms of service of the sites you use and support the authors you enjoy.
-
-## Credits & license
-
-- Original project: [Mythos](https://github.com/unitreign/Mythos) by **unitreign** (GPL-3.0).
-- Fork maintained by **thefoolwholovestheworld**; this fork modifies the original code (French interface, built-in sources, GitHub updates).
-- Licensed under the **GNU General Public License v3.0**. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
+Sefirah is based on [Mythos](https://github.com/unitreign/Mythos) by unitreign. Distributed under the **GPL-3.0** license, like the original project.
