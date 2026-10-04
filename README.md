@@ -10,19 +10,19 @@ A web novel library for [KOReader](https://koreader.rocks/). Browse, follow and 
 
 <table>
   <tr>
-    <td align="center"><img src="images/library.jpg" width="260"><br><sub>Library</sub></td>
-    <td align="center"><img src="images/browse-sources.jpg" width="260"><br><sub>Browse: sources</sub></td>
-    <td align="center"><img src="images/browse-novelfire.jpg" width="260"><br><sub>Browse: NovelFire</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0011.jpg" width="260"><br><sub>Library</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0005.jpg" width="260"><br><sub>Browse: sources</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0003.jpg" width="260"><br><sub>Browse: NovelFire</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="images/details.jpg" width="260"><br><sub>Novel details</sub></td>
-    <td align="center"><img src="images/chapters.jpg" width="260"><br><sub>Chapters</sub></td>
-    <td align="center"><img src="images/reviews.jpg" width="260"><br><sub>Reader reviews</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0009.jpg" width="260"><br><sub>Novel details</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0004.jpg" width="260"><br><sub>Chapters</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0006.jpg" width="260"><br><sub>Reader reviews</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="images/reader.jpg" width="260"><br><sub>Reader</sub></td>
-    <td align="center"><img src="images/reading-settings.jpg" width="260"><br><sub>Reading settings</sub></td>
-    <td align="center"><img src="images/sources.jpg" width="260"><br><sub>Sources</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0008.jpg" width="260"><br><sub>Reader</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0010.jpg" width="260"><br><sub>Reading settings</sub></td>
+    <td align="center"><img src="images/IMG-20261004-WA0007.jpg" width="260"><br><sub>Sources</sub></td>
   </tr>
 </table>
 
