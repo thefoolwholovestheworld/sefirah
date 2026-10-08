@@ -42,6 +42,7 @@ A web novel library for [KOReader](https://koreader.rocks/). Browse, follow and 
 
 | Source | Language |
 |---|---|
+| Ao3 | Multi |
 | LightNovelVF | French |
 | NovelFrance | French |
 | NovelFire | English |
